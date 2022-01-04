@@ -2,6 +2,21 @@ name: nolan.emmerich
 description: User fork
 version: 1
 author: orval.okeefe@yahoo.com
-workflows: {}
+workflows:
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: orval.okeefe@yahoo.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-04 13:45:05'
+    datasets:
+      inputs: []
+      outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Mr__Tambra_Abbott:
+    name: Mr__Tambra_Abbott
+    description: Really solid info
+    createdAt: '2022-01-04 13:45:06'
+    author: orval.okeefe@yahoo.com
